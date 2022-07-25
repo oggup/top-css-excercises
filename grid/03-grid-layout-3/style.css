@@ -36,6 +36,8 @@
 .sidebar {
   background-color: #ff7755;
   grid-row: 2/4;
+  display:grid;
+  gap:50px;
 }
 
 .sidebar .photo {
@@ -69,6 +71,9 @@ li {
   background-color: #bccbde;
   grid-column: 2/3;
   grid-row: 3/4;
+
+  display:grid;grid-template:repeat(3,1fr)/ repeat(3,1fr);
+  gap:15px;
 }
 
 .article p {
